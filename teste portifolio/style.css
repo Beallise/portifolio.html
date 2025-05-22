@@ -1,0 +1,159 @@
+/* define tamanho */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* corpo do site */
+body 
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #000000;
+  background-color: #740938;
+}
+
+/* Container centralizado*/
+.container 
+{
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* cabeçalho */
+.header 
+{
+  background-color: #740938;
+  color: #fff;
+  padding: 20px 0;
+}
+
+/* titulo */
+.header .logo 
+{
+  float: left;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+/* naveg */
+.header .nav ul 
+{
+  list-style: none;
+  float: right;
+  margin-right: 20px;
+}
+
+/* itens separados */
+.header .nav ul li 
+{
+  display: inline;
+  margin-left: 20px;
+}
+
+/* botao menu */
+.btn-destaque 
+{
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* links da naveg*/
+.header .nav ul li a 
+{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* principal (hero) */
+.hero 
+{
+  background-color: #a55272;
+  padding: 60px 0;
+  text-align: center;
+}
+
+/* imagem*/
+.profile-img 
+{
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* seçoes */
+section 
+{
+  padding: 60px 0;
+}
+
+/* secoes baixo */
+.sobre, .projetos, .contato 
+{
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+/* botões */
+.botoes-contato 
+{
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/*  botoes de contato */
+.btn-contato 
+{
+  background-color: #a55272;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+/* coloridin do mouse */
+.btn-contato:hover 
+{
+  background-color: #ffffff;
+  color:#740938;
+}
+
+/* divisao projetos */
+.projetos-grid 
+{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* projeto sozinho */
+.projeto 
+{
+  background-color: #a55272;
+  color:#fff;
+  padding: 20px;
+  flex: 1 1 calc(50% - 20px);
+}
+
+/* pezito */
+.footer 
+{
+  background-color: #740938;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
